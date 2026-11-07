@@ -130,7 +130,7 @@
           <p>The Application is free to download. The first stage is free to play. Later stages can be unlocked in one of two ways:</p>
           <ul>
             <li><strong>PRO (in-app purchase):</strong> a one-time purchase through Google Play that unlocks all stages permanently and removes all advertisements.</li>
-            <li><strong>Rewarded advertisement:</strong> watching an optional video advertisement, served by Google AdMob, to unlock a single stage for the current play session.</li>
+            <li><strong>Rewarded advertisement:</strong> watching an optional video advertisement, served by Google AdMob and its advertising partners, to unlock a single stage for the current play session.</li>
           </ul>
           <p>The Application does not require you to create an account, and the Developer does not operate any server that collects your personal information. Information used for purchases and advertising is collected and processed by Google, as described below.</p>
         </section>
@@ -138,7 +138,7 @@
         <section id="not-collected">
           <h2 class="section-title font-display text-xl text-ink-900 mb-3">2. Information the Developer Does Not Collect</h2>
           <p>The Developer does not collect, store, or receive any personally identifiable information, such as your name, email address, phone number, or physical location.</p>
-          <p>The Application does not include analytics tracking or social media integrations. The only third-party services in the Application are Google Play (including Google Play Billing for the in-app purchase) and Google AdMob (for optional rewarded advertisements), described in Sections 4 and 5.</p>
+          <p>The Application does not include analytics tracking or social media integrations. The only third-party services in the Application are Google Play (including Google Play Billing for the in-app purchase) Google AdMob (for optional rewarded advertisements), and the advertising partners Unity Ads and ironSource Ads, which supply advertisements through Google AdMob. These are described in Sections 4, 5 and 10.</p>
         </section>
 
         <section id="local-storage">
@@ -162,8 +162,8 @@
 
         <section id="advertising">
           <h2 class="section-title font-display text-xl text-ink-900 mb-3">5. Advertising (Google AdMob)</h2>
-          <p>Players who do not own PRO may choose to watch a rewarded video advertisement to unlock a stage. Advertisements are served by <strong>Google AdMob</strong>, a service of Google LLC, through the Google Mobile Ads SDK. Advertisements are only requested when a locked stage is reached. Players who own PRO never see advertisements, and the advertising service is not started for them.</p>
-          <p>When advertisements are requested or shown, the Google Mobile Ads SDK may automatically collect and share with Google the following information:</p>
+          <p>Players who do not own PRO may choose to watch a rewarded video advertisement to unlock a stage. Advertisements are served by <strong>Google AdMob</strong>, a service of Google LLC, through the Google Mobile Ads SDK. To show more relevant advertisements, Google AdMob may also request advertisements from the following advertising partners, both operated by Unity Technologies: <strong>Unity Ads</strong> and <strong>ironSource Ads</strong>. Advertisements are only requested when a locked stage is reached. Players who own PRO never see advertisements, and the advertising service is not started for them.</p>
+          <p>When advertisements are requested or shown, the Google Mobile Ads SDK and the advertising partners' SDKs may automatically collect and share with Google and these partners the following information:</p>
           <ul>
             <li><strong>Device and advertising identifiers</strong>, such as the Android Advertising ID and app set ID;</li>
             <li><strong>IP address</strong>, which may be used to estimate your general (approximate) location;</li>
@@ -171,7 +171,7 @@
             <li><strong>Ad interaction data</strong>, such as ad views, taps, and whether a video was watched to completion; and</li>
             <li><strong>Diagnostic information</strong>, such as crash logs and performance data related to the advertising service.</li>
           </ul>
-          <p>Google uses this information to deliver and measure advertisements, to personalize advertisements where you have allowed it, to prevent fraud and abuse, and to improve its services. This information is sent to Google, not to the Developer, and is encrypted in transit. You can learn more about how Google uses information from apps that use its services at <a class="text-ink-800 underline decoration-gold-400 underline-offset-2 hover:text-ink-900" href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">policies.google.com/technologies/partner-sites</a>.</p>
+          <p>Google uses this information to deliver and measure advertisements, to personalize advertisements where you have allowed it, to prevent fraud and abuse, and to improve its services. Each advertising partner uses this information for the same purposes under its own privacy policy. This information is sent to Google and the advertising partners, not to the Developer, and is encrypted in transit. You can learn more about how Google uses information from apps that use its services at <a class="text-ink-800 underline decoration-gold-400 underline-offset-2 hover:text-ink-900" href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">policies.google.com/technologies/partner-sites</a>.</p>
           <p>Watching an advertisement is always optional. An advertisement unlocks a stage only if it is watched to the end, and advertisement availability is not guaranteed.</p>
         </section>
 
@@ -195,7 +195,7 @@
 
         <section id="security">
           <h2 class="section-title font-display text-xl text-ink-900 mb-3">9. Data Security</h2>
-          <p>Because the Developer does not collect or transmit personal data, there is no server-side database of user information for the Developer to maintain or secure. Information handled by Google Play and Google AdMob is protected under Google's own security practices.</p>
+          <p>Because the Developer does not collect or transmit personal data, there is no server-side database of user information for the Developer to maintain or secure. Information handled by Google Play and Google AdMob is protected under Google's own security practices, and information handled by Unity Ads and ironSource Ads under Unity Technologies' own security practices.</p>
         </section>
 
         <section id="third-party">
@@ -204,6 +204,8 @@
           <ul>
             <li><strong>Google Play Store and Google Play Billing</strong> &mdash; distribution and in-app purchase. <a class="text-ink-800 underline decoration-gold-400 underline-offset-2 hover:text-ink-900" href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
             <li><strong>Google AdMob (Google Mobile Ads SDK) and Google User Messaging Platform</strong> &mdash; optional rewarded advertisements and consent. <a class="text-ink-800 underline decoration-gold-400 underline-offset-2 hover:text-ink-900" href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from partner apps</a></li>
+            <li><strong>Unity Ads</strong> (Unity Technologies) &mdash; advertising partner supplying rewarded advertisements through Google AdMob. <a class="text-ink-800 underline decoration-gold-400 underline-offset-2 hover:text-ink-900" href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener noreferrer">Unity Privacy Policy</a></li>
+            <li><strong>ironSource Ads</strong> (Unity Technologies) &mdash; advertising partner supplying rewarded advertisements through Google AdMob. <a class="text-ink-800 underline decoration-gold-400 underline-offset-2 hover:text-ink-900" href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener noreferrer">Unity Privacy Policy</a></li>
           </ul>
           <p>If additional third-party services are added in a future update, this Privacy Policy will be revised accordingly before that update is released.</p>
         </section>
@@ -221,7 +223,7 @@
 
         <section id="international">
           <h2 class="section-title font-display text-xl text-ink-900 mb-3">12. International Users</h2>
-          <p>The Application is offered globally through the Google Play Store. The Developer does not collect or process your personal data, so no cross-border transfer of personal data by the Developer occurs. Google may process information collected through Google Play and Google AdMob in countries other than your own, in accordance with Google's Privacy Policy.</p>
+          <p>The Application is offered globally through the Google Play Store. The Developer does not collect or process your personal data, so no cross-border transfer of personal data by the Developer occurs. Google may process information collected through Google Play and Google AdMob, and Unity Technologies may process information collected through Unity Ads and ironSource Ads, in countries other than your own, in accordance with their own privacy policies.</p>
         </section>
 
         <section id="changes">
